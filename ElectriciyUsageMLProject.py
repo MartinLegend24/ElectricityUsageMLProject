@@ -9,7 +9,7 @@ import seaborn as sns
 import joblib
 
 # Load data
-file_path = 'C:\\Users\\vasud\\Downloads\\recs2015_public_v4.csv' #include your own path
+file_path = 'C:\\Users\\vasud\\Downloads\\recs2015_public_v4.csv' #set your own path
 data = pd.read_csv(file_path)
 
 # Preview data and check for missing values
