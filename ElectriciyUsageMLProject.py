@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+import numpy as np #optional [You can import it if you wish to use it]
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.ensemble import RandomForestRegressor
