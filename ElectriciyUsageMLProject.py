@@ -10,8 +10,10 @@ import joblib
 
 # Load data
 file_path = 'C:\\Users\\vasud\\Downloads\\recs2015_public_v4.csv' #set your own path
-data = pd.read_csv(file_path)
-
+try: 
+    data = pd.read_csv(file_path)
+except filenotfounderror:
+    print(f'Error: The file at {file_path} was not found')
 # Preview data and check for missing values
 print(data.info())
 print(data.isnull().sum())
