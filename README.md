@@ -150,7 +150,7 @@ Contributions are welcome! Please follow these steps:
 
 
 -- Members --
-1. Aryan Kumar
+1. Aryan Kumar aka MartinLegend24
 2. Abhinav Nirwan aka UnknownCodrr
 3. Aakash Sharma aka Aakash5268
 4. Aman Kumar aka satoru-coder
